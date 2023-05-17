@@ -1,0 +1,344 @@
+/* TOP SECTION */
+#pricing-page-top-section {
+  background-color: #e4e4fc;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  position: relative;
+  z-index: -1;
+}
+
+.pp-top-text-div {
+  margin-bottom: 2rem;
+}
+
+.pp-top-text-div h1 {
+  font-size: 3.5rem;
+  color: #6304ec;
+}
+.pp-top-text-div p {
+  opacity: 0.5;
+  font-size: 1.3rem;
+}
+
+.pp-top-grid-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 3rem;
+}
+.pp-top-grid-icon {
+  font-size: 2.5rem;
+}
+
+.pp-top-btn {
+  font-weight: bold;
+  border-radius: 5px;
+  max-width: 8rem;
+  min-width: 8rem;
+  text-align: center;
+}
+
+.pp-btn-2 {
+  text-align: center;
+  padding: 12px;
+}
+
+@media (width < 600px) {
+  .pp-top-text-div h1 {
+    font-size: 2rem;
+    color: #6304ec;
+  }
+  .pp-top-text-div p {
+    opacity: 0.5;
+    font-size: 0.9rem;
+  }
+  .pp-top-grid-icon {
+    font-size: 2rem;
+  }
+  .pp-top-grid-sm-text {
+    font-size: 0.85rem;
+  }
+}
+/* PRICING SECTION */
+#pricing-card {
+  position: relative;
+  bottom: 5rem;
+  right: 3rem;
+  width: 100%;
+}
+
+.pricing-card-grid-main-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.pricing-card-grid {
+  width: 18rem;
+  padding: 1.25rem 1rem;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 7px 7px 10px 0 rgb(245 129 129 / 15%);
+  text-align: left;
+  border-width: 0;
+  min-height: 750px;
+  position: relative;
+}
+.pricing-card-grid:hover {
+  box-shadow: 7px 7px 50px 10px rgba(206, 196, 196, 0.15);
+  transition: 1s ease-in-out;
+}
+
+.pricing-card-grid-title {
+  font-weight: bold;
+  color: #02044a;
+  padding-bottom: 1rem;
+}
+.pricing-card-subtitle-text {
+  font-size: 3rem;
+  color: #02044a;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.pricing-card-sm-subtitle-text {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.pricing-card-sm-text {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.pricing-card-btn {
+  position: absolute;
+  top: 90%;
+  border-radius: 7px;
+  margin: 0 auto 0 0.5rem;
+  padding: 1rem 4.5rem;
+  background-color: #fff;
+  border-color: #6304ec;
+  border-width: 1px;
+  border-style: solid;
+  color: #6304ec;
+  font-weight: bold;
+}
+
+.pricing-card-btn:hover {
+  background-color: #6304ec;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.pc-grid2 {
+  background-color: #6304ec;
+  color: #fff;
+}
+.pc-btn {
+  color: #fff;
+  background-color: #6304ec;
+  border-color: #fff;
+}
+.pricing-card-grid-title2 {
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.pricing-card-subtitle-text2 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.pricing-card-subtitle-text-contact {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.pricing-card-list-item-div,
+.pricing-card-sm-text {
+  color: #02044a;
+}
+
+.pricing-card-list-item-div2 {
+  margin-bottom: 4rem;
+}
+.pc-grid1 p i {
+  color: #6304ec;
+}
+.pc-grid3 p i {
+  color: #6304ec;
+}
+.pc-grid4 p i {
+  color: #6304ec;
+}
+.pc-grid2 .grid2-icon {
+  color: #fff;
+}
+
+@media (width < 1200px) and (width > 1050px) {
+  .pricing-card-grid-main-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+}
+
+@media (width < 660px) {
+  .pricing-card-grid-main-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    text-align: center;
+    padding-left: 8.5rem;
+  }
+}
+/* PLAN COMPARISON */
+#plan-comparison {
+  background-color: #e4e4fc;
+  padding: 5rem 2rem;
+}
+.plan-comp-top-text-div {
+  padding-bottom: 3rem;
+}
+.plan-comp-top-sm-text {
+  color: #6304ec;
+  font-weight: bold;
+}
+.plan-comp-top-sm-text2 {
+  font-size: 1.1rem;
+}
+
+.plan-comp-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  width: 100%;
+  text-align: left;
+  min-width: 400px;
+  background-color: #fff;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 14px 42px 0 rgb(32 36 138 / 9%);
+}
+.plan-comp-table-head tr {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.plan-comp-table tbody tr td {
+  text-align: center;
+}
+
+.plan-comp-table th,
+.plan-comp-table td {
+  padding: 2rem 1.1rem;
+}
+.plan-comp-table tr {
+  border: solid 1px #ddd;
+}
+
+/* .plan-comp-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.plan-comp-table tbody tr:last-of-type {
+  border-bottom: solid 2px #6304ec;
+} */
+
+.tbody-th-main {
+  font-size: 1.2rem;
+  padding-left: 3rem;
+}
+.tbody-th {
+  font-weight: normal;
+}
+.tbody-th .bi-circle-fill {
+  font-size: 0.5rem;
+  padding-right: 0.5rem;
+  color: rgb(19, 113, 202);
+}
+td i {
+  font-size: 2rem;
+  color: #6304ec;
+}
+
+.tbody-btn {
+  padding: 1rem 4rem;
+}
+.tbody-btn2 {
+  padding: 1rem 4rem;
+  font-weight: bold;
+}
+.tbody-btn:hover {
+  background-color: #6304ec;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+/* Second table */
+
+.pricing-comp-btn-div {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* FAQs SECTION */
+
+#faq {
+  padding: 5rem 0;
+}
+
+.faq-btn {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 4rem;
+}
+.faq-top-header-div {
+  margin-bottom: 2rem;
+}
+
+.faq-grid-main-div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px;
+  padding-top: 2rem;
+  text-align: center;
+  padding-left: 7rem;
+}
+
+.faq-grid-inner-div {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 4px 24px 44px 0 rgb(221, 185, 236);
+  padding: 1rem 3rem;
+  width: 90%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(244, 219, 255);
+}
+
+.faq-grid-inner-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.faq-grid-inner-text-div {
+  text-align: left;
+
+  display: inline-block;
+  padding-top: 1rem;
+  justify-self: start;
+}
+
+.faq-grid-inner-icon-div {
+  display: inline-block;
+
+  justify-self: end;
+}
+.faq-grid-inner-icon {
+  font-size: 2.5rem;
+  color: #6304ec;
+}

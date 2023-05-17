@@ -1,0 +1,148 @@
+/* Use-cases */
+
+#Use-cases {
+  background-color: #f3f5ff;
+  padding: 7rem 0 5rem 0;
+}
+
+.top-section-main-div {
+  text-align: center;
+}
+
+.header-div {
+  margin-bottom: 2rem;
+}
+.header-text {
+  font-size: 4rem;
+}
+
+.top-section-small-text {
+  margin-bottom: 40px;
+  color: #7a7d9c;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  width: 50%;
+  font-weight: normal;
+}
+
+.features-email-label {
+  width: 50%;
+}
+
+.features-email-input {
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  text-align: left;
+  margin-right: 4rem;
+  width: 100%;
+}
+
+@media (width < 993px) {
+  .features-email-label {
+    width: 90%;
+  }
+  .features-email-input {
+    font-weight: bold;
+    font-size: 0.9em;
+    opacity: 0.5;
+    text-align: left;
+    margin-right: 5em;
+  }
+  .feature-page-btn {
+    width: 40%;
+    padding: 12px 20px;
+  }
+  .feature-page-btn-text {
+    font-size: 0.8em;
+  }
+
+  .top-section-small-text {
+    font-size: 1em;
+    line-height: 28px;
+    text-align: left;
+    width: 90%;
+  }
+}
+
+/* MID-SECTION */
+
+#mid-section {
+  padding: 3rem 0;
+}
+
+.mid-section-grid-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.mid-section-grid-sub-div {
+  position: relative;
+  overflow: visible;
+  padding: 3rem 2rem 1rem;
+  border-style: solid;
+  border-radius: 19px;
+  border-width: 1px;
+  border-color: #eff0f6;
+  box-shadow: 0 6px 12px 0 rgba(21, 21, 37, 0.04);
+  text-align: left;
+  width: 100%;
+}
+
+.mid-section-grid-img {
+  width: 100%;
+  text-align: center;
+}
+
+.mid-section-grid-text-div {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.mid-section-grid-big-text {
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.mid-section-grid-btn-div {
+  text-align: center;
+}
+.learn-more-btn {
+  border-color: #6304ec;
+  padding: 0.5rem 3rem;
+  color: #6304ec;
+  font-weight: bold;
+}
+
+.learn-more-btn:hover {
+  background-color: #6304ec;
+  border-color: #6304ec;
+}
+
+@media (width < 995px) and (width > 769px) {
+  .mid-section-grid-main-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media (width < 769px) {
+  .mid-section-grid-main-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .mid-section-grid-small-text {
+    text-align: center;
+  }
+}
+
+/*
+bottom-feature-section */
+
+#bottom-feature-section {
+  padding: 3rem;
+}
